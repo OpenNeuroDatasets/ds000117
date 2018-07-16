@@ -1,7 +1,5 @@
-This dataset was obtained from the OpenNeuro project (https://www.openneuro.org). Accession #: ds001326
-
-Note that it is a subset of the data available on OpenfMRI (http://www.openfmri.org; Accession #: ds000117).
-
+This dataset was obtained from the OpenfMRI project (http://www.openfmri.org).
+Accession #: ds000117
 Description:  Multi-subject, multi-modal (sMRI+fMRI+MEG+EEG) neuroimaging dataset on face recognition
 
 Please cite the following references if you use these data:
@@ -69,6 +67,7 @@ If you wish to publish any of these data, please acknowledge Daniel Wakeman and 
 General Comments
 ----------------
 
+ 
 Defacing
 --------
 Defacing was performed by the submitter
@@ -77,6 +76,18 @@ Quality Control
 ---------------
 Mriqc was run on the dataset. Results are located in derivatives/mriqc. Learn more about it here: https://mriqc.readthedocs.io/en/latest/
  
+Where to discuss the dataset
+----------------------------
+1) www.openfmri.org/dataset/ds000117/ See the comments section at the bottom of the dataset
+page.
+2) www.neurostars.org Please tag any discussion topics with the tags openfmri and ds000117.
+3) Send an email to submissions@openfmri.org. Please include the accession number in
+your email.
+ 
 Known Issues
 ------------
 N/A
+ 
+
+
+
