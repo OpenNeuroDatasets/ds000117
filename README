@@ -23,7 +23,7 @@ The data have been used in several publications including, for example:
 
 func/
 -----
-The experiment began at the third nifti volume (corresponding to 5 ignored scans: 3 forced Siemens dummies (no files) and 2 included in the data).
+Unlike in v1-v3 of this dataset, the first two (dummy) volumes have now been removed (as stated in *.json), so event onset times correctly refer to t=0 at start of third volume 
 
 meg/
 ----

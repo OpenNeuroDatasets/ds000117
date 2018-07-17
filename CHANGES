@@ -1,3 +1,7 @@
+4.0.0	2018-05-23
+
+	- Removed 2 dummy func volumes per run so onsets match start of third scan, and uploaded stimulus and some reference files that were previously empty placeholders
+
 3.0.0	2018-04-06
 
 	- Another update to README after accession number changed again
