@@ -1,3 +1,7 @@
+1.0.1	2018-08-23
+
+	- Deleted *.fif.gz files
+
 4.0.0	2018-05-23
 
 	- Removed 2 dummy func volumes per run so onsets match start of third scan, and uploaded stimulus and some reference files that were previously empty placeholders
