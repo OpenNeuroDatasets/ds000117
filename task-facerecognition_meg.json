@@ -30,5 +30,5 @@
  },
  "InstitutionName": "MRC Cognition & Brain Sciences Unit",
  "InstitutionAddress": "15 Chaucer Road, Cambridge, UK",
- "AssociatedEmptyRoom": "sub-emptyroom/ses-20090409/meg/sub-emptyroom_ses-20090409_task-noise_meg.fif.gz"
+ "AssociatedEmptyRoom": "sub-emptyroom/ses-20090409/meg/sub-emptyroom_ses-20090409_task-noise_meg.fif"
 }
