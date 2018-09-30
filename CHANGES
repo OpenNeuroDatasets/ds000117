@@ -1,3 +1,10 @@
+1.0.2	2018-09-30
+
+	- Moved *_meg.json and *_channels.tsv to session level 
+	- Various edits to *_coordsystem.json and *_meg.json files
+	- Added acquisition dates of corresponding empty room scan to *scans.tsv
+	- Copied metadata from *_meg.json files to derivatives/
+
 1.0.2	2018-09-13
 
 	- Adding DOI
