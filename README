@@ -25,6 +25,8 @@ func/
 -----
 Unlike in v1-v3 of this dataset, the first two (dummy) volumes have now been removed (as stated in *.json), so event onset times correctly refer to t=0 at start of third volume 
 
+Note that, owing to scanner error, Subject 10 only has 170 volumes in last run (Run 9) (hence the BIDS warning of some onsets in events.tsv file being later than the data)
+
 meg/
 ----
 Three anatomical fiducials were digitized for aligning the MEG with the MRI: the nasion 
