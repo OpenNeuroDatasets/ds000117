@@ -1,3 +1,7 @@
+1.0.3	2018-11-26
+
+	- Updated task-facerecognition_bold.json and acq-mprage_T1w.json with more fields (eg PhaseEncodingDirection and SliceTiming). Added README note about reduced volumes for sub-10, run-09. Deleted session-specific *channels.tsv and *json files for MEG sub-emptyroom (which were labelled with "task-facerecognition" rather than "task-noise" like *.fif files, causing BIDS Validator error). Added a single *channels.tsv and *.json at higher level of sub-emptyroom, which should be inherited)
+
 1.0.2	2018-09-30
 
 	- Moved *_meg.json and *_channels.tsv to session level 
