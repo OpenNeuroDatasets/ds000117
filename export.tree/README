@@ -1,0 +1,70 @@
+This dataset was obtained from the OpenNeuro project (https://www.openneuro.org). Accession #: ds000117
+
+The same dataset is also available here: ftp://ftp.mrc-cbu.cam.ac.uk/personal/rik.henson/wakemandg_hensonrn/, but in a non-BIDS format (which may be easier to download by subject rather than by modality)
+
+Note that it is a subset of the data available on OpenfMRI (http://www.openfmri.org; Accession #: ds000117).
+
+
+Description:  Multi-subject, multi-modal (sMRI+fMRI+MEG+EEG) neuroimaging dataset on face processing
+
+Please cite the following reference if you use these data:
+
+     Wakeman, D.G. & Henson, R.N. (2015). A multi-subject, multi-modal human neuroimaging dataset. Sci. Data 2:150001 doi: 10.1038/sdata.2015.1
+
+The data have been used in several publications including, for example:
+
+    Henson, R.N., Wakeman, D.G., Litvak, V. & Friston, K.J. (2011). A Parametric Empirical Bayesian framework for the EEG/MEG inverse problem: generative models for multisubject and multimodal integration. Frontiers in Human Neuroscience, 5, 76, 1-16.
+
+    Chapter 42 of the SPM12 manual (http://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf)
+
+(see ftp://ftp.mrc-cbu.cam.ac.uk/personal/rik.henson/wakemandg_hensonrn/Publications for full list), as well as the BioMag2010 data competition and the Kaggle competition: https://www.kaggle.com/c/decoding-the-human-brain
+
+==================================================================================
+
+func/
+-----
+Unlike in v1-v3 of this dataset, the first two (dummy) volumes have now been removed (as stated in *.json), so event onset times correctly refer to t=0 at start of third volume 
+
+Note that, owing to scanner error, Subject 10 only has 170 volumes in last run (Run 9) (hence the BIDS warning of some onsets in events.tsv file being later than the data)
+
+meg/
+----
+Three anatomical fiducials were digitized for aligning the MEG with the MRI: the nasion 
+(lowest depression between the eyes) and the left and right ears (lowest depression 
+between the tragus and the helix, above the tragus). This procedure is illustrated here:
+http://neuroimage.usc.edu/brainstorm/CoordinateSystems#Subject_Coordinate_System_.28SCS_.2F_CTF.29
+and in task-facerecognition_fidinfo.pdf 
+
+The following triggers are included in the .fif files and are also used in the “trigger” column of the meg and bold events files:
+
+Trigger            Label               Simplified Label
+
+5         Initial Famous Face               FAMOUS
+6         Immediate Repeat Famous Face      FAMOUS
+7         Delayed Repeat Famous Face        FAMOUS
+13        Initial Unfamiliar Face           UNFAMILIAR
+14        Immediate Repeat Unfamiliar Face  UNFAMILIAR
+15        Delayed Repeat Unfamiliar Face    UNFAMILIAR
+17        Initial Scrambled Face            SCRAMBLED
+18        Immediate Repeat Scrambled Face   SCRAMBLED
+19        Delayed Repeat Scrambled Face     SCRAMBLED
+
+stimuli/meg/
+------------
+The .bmp files correspond to those described in the text. There are 6 additional images in this directory, which were used in the practice experiment to familiarize participants with the task.
+
+stimuli/mri/
+------------
+The .bmp files correspond to those described in the text.
+	
+Defacing
+--------
+Defacing of MPRAGE T1 images was performed by the submitter. A subset of subjects have given consent for non-defaced versions to be shared - in which case, please contact rik.henson@mrc-cbu.cam.ac.uk.
+ 
+Quality Control
+---------------
+Mriqc was run on the dataset. Results are located in derivatives/mriqc. Learn more about it here: https://mriqc.readthedocs.io/en/latest/
+ 
+Known Issues
+------------
+N/A
