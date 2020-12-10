@@ -1,7 +1,7 @@
 {
  "TaskName": "facerecognition",
  "SamplingFrequency": 1100,
- "Manufacturer": "Elekta/Neuromag",
+ "Manufacturer": "ElektaNeuromag",
  "ManufacturersModelName": "ElektaVectorview",
  "MEGChannelCount": 306,
  "MEGREFChannelCount": 0,
