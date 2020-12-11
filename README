@@ -68,3 +68,47 @@ Mriqc was run on the dataset. Results are located in derivatives/mriqc. Learn mo
 Known Issues
 ------------
 N/A
+
+Relationship of Subject Numbering relative to other versions of Dataset
+------------
+
+There are multiple versions of the dataset available on the web (see notes above), and these entailed a renumbering of the subjects for various reasons. Here are all the versions and how to match subjects between them (plus some rationale and history for different versions):
+ 
+1. Original Paper (N=19): Wakeman & Henson (2015): doi:10.1038/sdata.2015.1 
+    Number refers to order that tested (and some, eg 4, 7, 13 etc were excluded for not completing both MRI and MEG sessions)
+ 
+2. openfMRI, renumbered from paper: http://openfmri.org/s3-browser/?prefix=ds000117/ds000117_R0.1.1/uncompressed/
+    Numbers 1-19 just made contiguous
+ 
+3. FTP subset of N=16: ftp: ftp://ftp.mrc-cbu.cam.ac.uk/personal/rik.henson/wakemandg_hensonrn/  
+    This set was used for SPM Courses
+    Designed to illustrate multimodal integration, so wanted good MRI+MEG+EEG data for all subjects
+    Removed original subject_01 and subject_06 because bad EEG data; subject_19 because poor EEG and fMRI data
+    (And renumbered subject_14 for some reason).
+ 
+4. Current OpenNeuro subset N=16 used for (BIDS): https://openneuro.org/datasets/ds000117 
+    OpenNeuro was rebranding of openfMRI, and enforced BIDS format
+    Since this version designed to illustrate multi-modal BIDS, kept same numbering as FTP
+ 
+W&H2015       openfMRI    FTP      openNeuro
+========       ======        ===     =======
+subject_01      sub001
+subject_02      sub002      Sub01   sub-01
+subject_03      sub003      Sub02   sub-02
+subject_05      sub004      Sub03   sub-03
+subject_06      sub005
+subject_08      sub006      Sub05   sub-05
+subject_09      sub007      Sub06   sub-06
+subject_10      sub008      Sub07   sub-07
+subject_11      sub009      Sub08   sub-08
+subject_12      sub010      Sub09   sub-09
+subject_14      sub011      Sub04   sub-04
+subject_15      sub012      Sub10   sub-10
+subject_16      sub013      Sub11   sub-11
+subject_17      sub014      Sub12   sub-12
+subject_18      sub015      Sub13   sub-13
+subject_19      sub016
+subject_23      sub017      Sub14   sub-14
+subject_24      sub018      Sub15   sub-15
+subject_25      sub019      Sub16   sub-16
+
