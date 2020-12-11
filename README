@@ -13,11 +13,13 @@ Please cite the following reference if you use these data:
 
 The data have been used in several publications including, for example:
 
+   Henson, R.N., Abdulrahman, H., Flandin, G. & Litvak, V. (2019). Multimodal integration of M/EEG and f/MRI data in SPM12. Frontiers in Neuroscience, Methods, 13, 300.
+
     Henson, R.N., Wakeman, D.G., Litvak, V. & Friston, K.J. (2011). A Parametric Empirical Bayesian framework for the EEG/MEG inverse problem: generative models for multisubject and multimodal integration. Frontiers in Human Neuroscience, 5, 76, 1-16.
 
     Chapter 42 of the SPM12 manual (http://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf)
 
-(see ftp://ftp.mrc-cbu.cam.ac.uk/personal/rik.henson/wakemandg_hensonrn/Publications for full list), as well as the BioMag2010 data competition and the Kaggle competition: https://www.kaggle.com/c/decoding-the-human-brain
+(see ftp://ftp.mrc-cbu.cam.ac.uk/personal/rik.henson/wakemandg_hensonrn/Publications for full list), as well as the BioMag2010 data competition and the Kaggle competition: https://www.kaggle.com/c/decoding-the-human-brain)
 
 ==================================================================================
 
