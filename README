@@ -51,7 +51,7 @@ Trigger            Label               Simplified Label
 
 stimuli/meg/
 ------------
-The .bmp files correspond to those described in the text. There are 6 additional images in this directory, which were used in the practice experiment to familiarize participants with the task.
+The .bmp files correspond to those described in the text. There are 6 additional images in this directory, which were used in the practice experiment to familiarize participants with the task (hence some more BIDS validator warnings)
 
 stimuli/mri/
 ------------
