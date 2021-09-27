@@ -1,3 +1,5 @@
+1.0.5 2021-09-28
+  - Removed task entity from coordsystem.json files
 1.0.4 2020-12-18
   - Corrected stimuli (and added a few more notes about subject numbers in different versions of dataset)
 1.0.3	2018-11-26
