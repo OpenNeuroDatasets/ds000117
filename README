@@ -27,7 +27,7 @@ func/
 -----
 Unlike in v1-v3 of this dataset, the first two (dummy) volumes have now been removed (as stated in *.json), so event onset times correctly refer to t=0 at start of third volume 
 
-Note that, owing to scanner error, Subject 10 only has 170 volumes in last run (Run 9) (hence the BIDS warning of some onsets in events.tsv file being later than the data)
+Note that, owing to scanner error, Subject 10 only has 170 volumes in last run (Run 9) 
 
 meg/
 ----
@@ -41,15 +41,15 @@ The following triggers are included in the .fif files and are also used in the â
 
 Trigger            Label               Simplified Label
 
-5         Initial Famous Face               FAMOUS
-6         Immediate Repeat Famous Face      FAMOUS
-7         Delayed Repeat Famous Face        FAMOUS
-13        Initial Unfamiliar Face           UNFAMILIAR
-14        Immediate Repeat Unfamiliar Face  UNFAMILIAR
-15        Delayed Repeat Unfamiliar Face    UNFAMILIAR
-17        Initial Scrambled Face            SCRAMBLED
-18        Immediate Repeat Scrambled Face   SCRAMBLED
-19        Delayed Repeat Scrambled Face     SCRAMBLED
+5         Initial Famous Face               IniFF
+6         Immediate Repeat Famous Face      ImmFF
+7         Delayed Repeat Famous Face        DelFF
+13        Initial Unfamiliar Face           IniUF
+14        Immediate Repeat Unfamiliar Face  ImmUF
+15        Delayed Repeat Unfamiliar Face    DelUF
+17        Initial Scrambled Face            IniSF
+18        Immediate Repeat Scrambled Face   ImmSF
+19        Delayed Repeat Scrambled Face     DelSF
 
 stimuli/meg/
 ------------
