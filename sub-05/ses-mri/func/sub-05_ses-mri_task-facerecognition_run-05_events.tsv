@@ -1,95 +1,189 @@
-onset	duration	circle_duration	trial_type	trigger	button_pushed	response_time	stim_file
-0.0	0.815	0.439	IniSF	17	7	1.004	func/s079.bmp
-3.124	0.942	0.549	ImmSF	18	7	1.016	func/s079.bmp
-6.532	0.87	0.578	IniUF	13	4	0.798	func/u071.bmp
-9.622	0.928	0.465	ImmUF	14	4	0.668	func/u071.bmp
-12.896	0.974	0.582	IniUF	13	7	0.792	func/u069.bmp
-16.136	0.981	0.486	ImmUF	14	7	0.583	func/u069.bmp
-19.427	0.804	0.546	IniFF	5	4	0.601	func/f069.bmp
-22.617	0.952	0.587	IniFF	5	4	1.18	func/f078.bmp
-25.808	0.999	0.481	ImmFF	6	4	0.553	func/f078.bmp
-29.165	0.945	0.573	IniUF	13	7	0.655	func/u081.bmp
-52.467	0.828	0.534	IniSF	17	4	1.012	func/s073.bmp
-55.575	0.891	0.469	IniSF	17	7	1.237	func/s072.bmp
-58.831	0.913	0.597	IniSF	17	7	1.313	func/s078.bmp
-61.988	0.832	0.48	ImmSF	18	7	0.83	func/s078.bmp
-65.095	0.996	0.512	DelFF	7	4	0.685	func/f069.bmp
-68.419	0.995	0.556	IniUF	13	7	0.742	func/u075.bmp
-71.71	0.909	0.507	IniFF	5	4	0.935	func/f072.bmp
-74.917	0.858	0.532	ImmFF	6	4	0.525	func/f072.bmp
-78.007	0.885	0.451	DelUF	15	7	0.781	func/u081.bmp
-81.248	0.857	0.597	IniUF	13	7	0.863	func/u067.bmp
-84.405	0.814	0.52	DelSF	19	4	1.261	func/s073.bmp
-87.412	0.98	0.422	IniFF	5	4	0.871	func/f081.bmp
-90.635	0.808	0.479	ImmFF	6	4	0.594	func/f081.bmp
-93.642	0.984	0.433	DelSF	19	7	0.925	func/s072.bmp
-96.899	0.822	0.492	IniSF	17	7	1.183	func/s066.bmp
-100.056	0.953	0.558	IniUF	13	4	0.879	func/u068.bmp
-103.213	0.825	0.438	DelUF	15	7	0.993	func/u075.bmp
-106.204	0.972	0.4	IniFF	5	4	0.687	func/f075.bmp
-109.394	0.86	0.447	ImmFF	6	4	0.725	func/f075.bmp
-132.562	0.875	0.519	IniFF	5	7	0.693	func/f068.bmp
-135.702	0.918	0.495	ImmFF	6	7	0.356	func/f068.bmp
-138.876	0.902	0.488	DelUF	15	7	0.579	func/u067.bmp
-142.067	0.981	0.522	IniUF	13	7	0.834	func/u074.bmp
-145.324	0.898	0.502	ImmUF	14	7	0.67	func/u074.bmp
-148.531	0.928	0.52	IniFF	5	4	0.704	func/f071.bmp
-151.788	0.844	0.556	ImmFF	6	4	0.531	func/f071.bmp
-154.929	0.826	0.521	DelSF	19	7	0.603	func/s066.bmp
-158.136	0.856	0.6	IniFF	5	4	0.73	func/f077.bmp
-161.343	0.992	0.579	ImmFF	6	4	0.488	func/f077.bmp
-164.7	0.881	0.589	DelUF	15	7	0.756	func/u068.bmp
-167.79	0.834	0.421	IniUF	13	7	0.781	func/u079.bmp
-170.881	0.959	0.5	IniUF	13	7	1.157	func/u066.bmp
-174.071	0.846	0.457	ImmUF	14	7	0.472	func/u066.bmp
-177.178	0.802	0.499	IniSF	17	7	0.874	func/s065.bmp
-180.151	0.962	0.411	ImmSF	18	7	0.658	func/s065.bmp
-183.308	0.801	0.4	IniUF	13	7	0.841	func/u077.bmp
-186.415	0.9	0.543	IniFF	5	7	0.881	func/f074.bmp
-209.533	0.913	0.445	IniUF	13	4	0.708	func/u065.bmp
-212.791	0.927	0.57	DelUF	15	7	0.883	func/u079.bmp
-215.931	0.894	0.437	IniUF	13	7	0.62	func/u073.bmp
-219.105	0.945	0.517	IniFF	5	4	0.678	func/f080.bmp
-222.346	0.864	0.534	IniSF	17	4	1.207	func/s069.bmp
-225.569	0.803	0.588	ImmSF	18	4	0.738	func/s069.bmp
-228.709	0.806	0.563	DelUF	15	7	0.614	func/u077.bmp
-231.8	0.888	0.442	IniSF	17	7	0.886	func/s081.bmp
-234.89	0.839	0.43	DelFF	7	7	0.693	func/f074.bmp
-237.947	0.868	0.44	IniUF	13	7	0.698	func/u078.bmp
-241.02	0.876	0.436	ImmUF	14	7	0.51	func/u078.bmp
-244.261	0.98	0.591	DelUF	15	4	0.621	func/u065.bmp
-247.418	0.875	0.407	IniFF	5	7	0.643	func/f067.bmp
-250.642	0.984	0.575	DelUF	15	7	0.695	func/u073.bmp
-253.966	0.947	0.578	IniFF	5	4	0.608	func/f066.bmp
-257.089	0.922	0.412	ImmFF	6	4	0.512	func/f066.bmp
-260.363	0.909	0.583	DelFF	7	4	0.969	func/f080.bmp
-263.487	0.876	0.44	IniUF	13	7	0.751	func/u072.bmp
-266.627	0.989	0.486	IniSF	17	7	0.765	func/s067.bmp
-269.918	0.802	0.531	DelSF	19	4	0.947	func/s081.bmp
-293.07	0.891	0.584	IniFF	5	7	0.786	func/f079.bmp
-296.193	0.976	0.459	IniSF	17	7	0.772	func/s074.bmp
-299.484	0.895	0.55	DelFF	7	7	0.95	func/f067.bmp
-302.724	0.97	0.577	IniFF	5	4	0.931	func/f070.bmp
-305.981	0.923	0.508	ImmFF	6	4	0.627	func/f070.bmp
-309.255	0.925	0.554	IniSF	17	7	0.952	func/s071.bmp
-312.479	0.892	0.529	ImmSF	18	7	0.778	func/s071.bmp
-315.619	0.917	0.477	DelUF	15	7	0.775	func/u072.bmp
-318.86	0.868	0.565	IniSF	17	7	1.122	func/s075.bmp
-322.034	0.811	0.539	DelSF	19	7	0.789	func/s067.bmp
-325.074	0.99	0.463	IniUF	13	7	1.289	func/u080.bmp
-328.281	0.899	0.449	ImmUF	14	7	0.443	func/u080.bmp
-331.405	0.989	0.456	DelFF	7	7	0.736	func/f079.bmp
-334.578	0.935	0.408	IniFF	5	7	1.002	func/f065.bmp
-337.735	0.885	0.464	ImmFF	6	7	0.417	func/f065.bmp
-340.843	0.874	0.467	DelSF	19	4	0.687	func/s074.bmp
-343.899	0.967	0.408	IniFF	5	7	0.937	func/f073.bmp
-347.19	0.931	0.555	IniSF	17	4	0.979	func/s077.bmp
-350.33	0.845	0.441	ImmSF	18	4	0.764	func/s077.bmp
-373.431	0.914	0.473	IniSF	17	7	0.78	func/s070.bmp
-376.622	0.819	0.503	DelSF	19	7	0.954	func/s075.bmp
-379.695	0.944	0.494	IniUF	13	7	0.822	func/u070.bmp
-382.852	0.929	0.443	ImmUF	14	7	0.611	func/u070.bmp
-386.043	0.948	0.486	IniSF	17	7	0.882	func/s080.bmp
-389.217	0.947	0.454	ImmSF	18	7	0.561	func/s080.bmp
-392.357	0.926	0.42	IniSF	17	4	0.898	func/s068.bmp
-395.631	0.918	0.573	DelFF	7	7	0.953	func/f073.bmp
+onset	duration	circle_duration	trial_type	trigger	response_time	stim_file
+0.0000	0.815	0.439	IniSF	17	n/a	func/s079.bmp
+1.0040	0.0	n/a	btnR	n/a	1.004	n/a
+3.1240	0.942	0.549	ImmSF	18	n/a	func/s079.bmp
+4.1400	0.0	n/a	btnR	n/a	1.016	n/a
+6.5320	0.87	0.578	IniUF	13	n/a	func/u071.bmp
+7.3300	0.0	n/a	btnL	n/a	0.798	n/a
+9.6220	0.928	0.465	ImmUF	14	n/a	func/u071.bmp
+10.2900	0.0	n/a	btnL	n/a	0.668	n/a
+12.8960	0.974	0.582	IniUF	13	n/a	func/u069.bmp
+13.6880	0.0	n/a	btnR	n/a	0.792	n/a
+16.1360	0.981	0.486	ImmUF	14	n/a	func/u069.bmp
+16.7190	0.0	n/a	btnR	n/a	0.583	n/a
+19.4270	0.804	0.546	IniFF	5	n/a	func/f069.bmp
+20.0280	0.0	n/a	btnL	n/a	0.601	n/a
+22.6170	0.952	0.587	IniFF	5	n/a	func/f078.bmp
+23.7970	0.0	n/a	btnL	n/a	1.18	n/a
+25.8080	0.999	0.481	ImmFF	6	n/a	func/f078.bmp
+26.3610	0.0	n/a	btnL	n/a	0.553	n/a
+29.1650	0.945	0.573	IniUF	13	n/a	func/u081.bmp
+29.8200	0.0	n/a	btnR	n/a	0.655	n/a
+52.4670	0.828	0.534	IniSF	17	n/a	func/s073.bmp
+53.4790	0.0	n/a	btnL	n/a	1.012	n/a
+55.5750	0.891	0.469	IniSF	17	n/a	func/s072.bmp
+56.8120	0.0	n/a	btnR	n/a	1.237	n/a
+58.8310	0.913	0.597	IniSF	17	n/a	func/s078.bmp
+60.1440	0.0	n/a	btnR	n/a	1.313	n/a
+61.9880	0.832	0.48	ImmSF	18	n/a	func/s078.bmp
+62.8180	0.0	n/a	btnR	n/a	0.83	n/a
+65.0950	0.996	0.512	DelFF	7	n/a	func/f069.bmp
+65.7800	0.0	n/a	btnL	n/a	0.685	n/a
+68.4190	0.995	0.556	IniUF	13	n/a	func/u075.bmp
+69.1610	0.0	n/a	btnR	n/a	0.742	n/a
+71.7100	0.909	0.507	IniFF	5	n/a	func/f072.bmp
+72.6450	0.0	n/a	btnL	n/a	0.935	n/a
+74.9170	0.858	0.532	ImmFF	6	n/a	func/f072.bmp
+75.4420	0.0	n/a	btnL	n/a	0.525	n/a
+78.0070	0.885	0.451	DelUF	15	n/a	func/u081.bmp
+78.7880	0.0	n/a	btnR	n/a	0.781	n/a
+81.2480	0.857	0.597	IniUF	13	n/a	func/u067.bmp
+82.1110	0.0	n/a	btnR	n/a	0.863	n/a
+84.4050	0.814	0.52	DelSF	19	n/a	func/s073.bmp
+85.6660	0.0	n/a	btnL	n/a	1.261	n/a
+87.4120	0.98	0.422	IniFF	5	n/a	func/f081.bmp
+88.2830	0.0	n/a	btnL	n/a	0.871	n/a
+90.6350	0.808	0.479	ImmFF	6	n/a	func/f081.bmp
+91.2290	0.0	n/a	btnL	n/a	0.594	n/a
+93.6420	0.984	0.433	DelSF	19	n/a	func/s072.bmp
+94.5670	0.0	n/a	btnR	n/a	0.925	n/a
+96.8990	0.822	0.492	IniSF	17	n/a	func/s066.bmp
+98.0820	0.0	n/a	btnR	n/a	1.183	n/a
+100.0560	0.953	0.558	IniUF	13	n/a	func/u068.bmp
+100.9350	0.0	n/a	btnL	n/a	0.879	n/a
+103.2130	0.825	0.438	DelUF	15	n/a	func/u075.bmp
+104.2060	0.0	n/a	btnR	n/a	0.993	n/a
+106.2040	0.972	0.4	IniFF	5	n/a	func/f075.bmp
+106.8910	0.0	n/a	btnL	n/a	0.687	n/a
+109.3940	0.86	0.447	ImmFF	6	n/a	func/f075.bmp
+110.1190	0.0	n/a	btnL	n/a	0.725	n/a
+132.5620	0.875	0.519	IniFF	5	n/a	func/f068.bmp
+133.2550	0.0	n/a	btnR	n/a	0.693	n/a
+135.7020	0.918	0.495	ImmFF	6	n/a	func/f068.bmp
+136.0580	0.0	n/a	btnR	n/a	0.356	n/a
+138.8760	0.902	0.488	DelUF	15	n/a	func/u067.bmp
+139.4550	0.0	n/a	btnR	n/a	0.579	n/a
+142.0670	0.981	0.522	IniUF	13	n/a	func/u074.bmp
+142.9010	0.0	n/a	btnR	n/a	0.834	n/a
+145.3240	0.898	0.502	ImmUF	14	n/a	func/u074.bmp
+145.9940	0.0	n/a	btnR	n/a	0.67	n/a
+148.5310	0.928	0.52	IniFF	5	n/a	func/f071.bmp
+149.2350	0.0	n/a	btnL	n/a	0.704	n/a
+151.7880	0.844	0.556	ImmFF	6	n/a	func/f071.bmp
+152.3190	0.0	n/a	btnL	n/a	0.531	n/a
+154.9290	0.826	0.521	DelSF	19	n/a	func/s066.bmp
+155.5320	0.0	n/a	btnR	n/a	0.603	n/a
+158.1360	0.856	0.6	IniFF	5	n/a	func/f077.bmp
+158.8660	0.0	n/a	btnL	n/a	0.73	n/a
+161.3430	0.992	0.579	ImmFF	6	n/a	func/f077.bmp
+161.8310	0.0	n/a	btnL	n/a	0.488	n/a
+164.7000	0.881	0.589	DelUF	15	n/a	func/u068.bmp
+165.4560	0.0	n/a	btnR	n/a	0.756	n/a
+167.7900	0.834	0.421	IniUF	13	n/a	func/u079.bmp
+168.5710	0.0	n/a	btnR	n/a	0.781	n/a
+170.8810	0.959	0.5	IniUF	13	n/a	func/u066.bmp
+172.0380	0.0	n/a	btnR	n/a	1.157	n/a
+174.0710	0.846	0.457	ImmUF	14	n/a	func/u066.bmp
+174.5430	0.0	n/a	btnR	n/a	0.472	n/a
+177.1780	0.802	0.499	IniSF	17	n/a	func/s065.bmp
+178.0520	0.0	n/a	btnR	n/a	0.874	n/a
+180.1510	0.962	0.411	ImmSF	18	n/a	func/s065.bmp
+180.8090	0.0	n/a	btnR	n/a	0.658	n/a
+183.3080	0.801	0.4	IniUF	13	n/a	func/u077.bmp
+184.1490	0.0	n/a	btnR	n/a	0.841	n/a
+186.4150	0.9	0.543	IniFF	5	n/a	func/f074.bmp
+187.2960	0.0	n/a	btnR	n/a	0.881	n/a
+209.5330	0.913	0.445	IniUF	13	n/a	func/u065.bmp
+210.2410	0.0	n/a	btnL	n/a	0.708	n/a
+212.7910	0.927	0.57	DelUF	15	n/a	func/u079.bmp
+213.6740	0.0	n/a	btnR	n/a	0.883	n/a
+215.9310	0.894	0.437	IniUF	13	n/a	func/u073.bmp
+216.5510	0.0	n/a	btnR	n/a	0.62	n/a
+219.1050	0.945	0.517	IniFF	5	n/a	func/f080.bmp
+219.7830	0.0	n/a	btnL	n/a	0.678	n/a
+222.3460	0.864	0.534	IniSF	17	n/a	func/s069.bmp
+223.5530	0.0	n/a	btnL	n/a	1.207	n/a
+225.5690	0.803	0.588	ImmSF	18	n/a	func/s069.bmp
+226.3070	0.0	n/a	btnL	n/a	0.738	n/a
+228.7090	0.806	0.563	DelUF	15	n/a	func/u077.bmp
+229.3230	0.0	n/a	btnR	n/a	0.614	n/a
+231.8000	0.888	0.442	IniSF	17	n/a	func/s081.bmp
+232.6860	0.0	n/a	btnR	n/a	0.886	n/a
+234.8900	0.839	0.43	DelFF	7	n/a	func/f074.bmp
+235.5830	0.0	n/a	btnR	n/a	0.693	n/a
+237.9470	0.868	0.44	IniUF	13	n/a	func/u078.bmp
+238.6450	0.0	n/a	btnR	n/a	0.698	n/a
+241.0200	0.876	0.436	ImmUF	14	n/a	func/u078.bmp
+241.5300	0.0	n/a	btnR	n/a	0.51	n/a
+244.2610	0.98	0.591	DelUF	15	n/a	func/u065.bmp
+244.8820	0.0	n/a	btnL	n/a	0.621	n/a
+247.4180	0.875	0.407	IniFF	5	n/a	func/f067.bmp
+248.0610	0.0	n/a	btnR	n/a	0.643	n/a
+250.6420	0.984	0.575	DelUF	15	n/a	func/u073.bmp
+251.3370	0.0	n/a	btnR	n/a	0.695	n/a
+253.9660	0.947	0.578	IniFF	5	n/a	func/f066.bmp
+254.5740	0.0	n/a	btnL	n/a	0.608	n/a
+257.0890	0.922	0.412	ImmFF	6	n/a	func/f066.bmp
+257.6010	0.0	n/a	btnL	n/a	0.512	n/a
+260.3630	0.909	0.583	DelFF	7	n/a	func/f080.bmp
+261.3320	0.0	n/a	btnL	n/a	0.969	n/a
+263.4870	0.876	0.44	IniUF	13	n/a	func/u072.bmp
+264.2380	0.0	n/a	btnR	n/a	0.751	n/a
+266.6270	0.989	0.486	IniSF	17	n/a	func/s067.bmp
+267.3920	0.0	n/a	btnR	n/a	0.765	n/a
+269.9180	0.802	0.531	DelSF	19	n/a	func/s081.bmp
+270.8650	0.0	n/a	btnL	n/a	0.947	n/a
+293.0700	0.891	0.584	IniFF	5	n/a	func/f079.bmp
+293.8560	0.0	n/a	btnR	n/a	0.786	n/a
+296.1930	0.976	0.459	IniSF	17	n/a	func/s074.bmp
+296.9650	0.0	n/a	btnR	n/a	0.772	n/a
+299.4840	0.895	0.55	DelFF	7	n/a	func/f067.bmp
+300.4340	0.0	n/a	btnR	n/a	0.95	n/a
+302.7240	0.97	0.577	IniFF	5	n/a	func/f070.bmp
+303.6550	0.0	n/a	btnL	n/a	0.931	n/a
+305.9810	0.923	0.508	ImmFF	6	n/a	func/f070.bmp
+306.6080	0.0	n/a	btnL	n/a	0.627	n/a
+309.2550	0.925	0.554	IniSF	17	n/a	func/s071.bmp
+310.2070	0.0	n/a	btnR	n/a	0.952	n/a
+312.4790	0.892	0.529	ImmSF	18	n/a	func/s071.bmp
+313.2570	0.0	n/a	btnR	n/a	0.778	n/a
+315.6190	0.917	0.477	DelUF	15	n/a	func/u072.bmp
+316.3940	0.0	n/a	btnR	n/a	0.775	n/a
+318.8600	0.868	0.565	IniSF	17	n/a	func/s075.bmp
+319.9820	0.0	n/a	btnR	n/a	1.122	n/a
+322.0340	0.811	0.539	DelSF	19	n/a	func/s067.bmp
+322.8230	0.0	n/a	btnR	n/a	0.789	n/a
+325.0740	0.99	0.463	IniUF	13	n/a	func/u080.bmp
+326.3630	0.0	n/a	btnR	n/a	1.289	n/a
+328.2810	0.899	0.449	ImmUF	14	n/a	func/u080.bmp
+328.7240	0.0	n/a	btnR	n/a	0.443	n/a
+331.4050	0.989	0.456	DelFF	7	n/a	func/f079.bmp
+332.1410	0.0	n/a	btnR	n/a	0.736	n/a
+334.5780	0.935	0.408	IniFF	5	n/a	func/f065.bmp
+335.5800	0.0	n/a	btnR	n/a	1.002	n/a
+337.7350	0.885	0.464	ImmFF	6	n/a	func/f065.bmp
+338.1520	0.0	n/a	btnR	n/a	0.417	n/a
+340.8430	0.874	0.467	DelSF	19	n/a	func/s074.bmp
+341.5300	0.0	n/a	btnL	n/a	0.687	n/a
+343.8990	0.967	0.408	IniFF	5	n/a	func/f073.bmp
+344.8360	0.0	n/a	btnR	n/a	0.937	n/a
+347.1900	0.931	0.555	IniSF	17	n/a	func/s077.bmp
+348.1690	0.0	n/a	btnL	n/a	0.979	n/a
+350.3300	0.845	0.441	ImmSF	18	n/a	func/s077.bmp
+351.0940	0.0	n/a	btnL	n/a	0.764	n/a
+373.4310	0.914	0.473	IniSF	17	n/a	func/s070.bmp
+374.2110	0.0	n/a	btnR	n/a	0.78	n/a
+376.6220	0.819	0.503	DelSF	19	n/a	func/s075.bmp
+377.5760	0.0	n/a	btnR	n/a	0.954	n/a
+379.6950	0.944	0.494	IniUF	13	n/a	func/u070.bmp
+380.5170	0.0	n/a	btnR	n/a	0.822	n/a
+382.8520	0.929	0.443	ImmUF	14	n/a	func/u070.bmp
+383.4630	0.0	n/a	btnR	n/a	0.611	n/a
+386.0430	0.948	0.486	IniSF	17	n/a	func/s080.bmp
+386.9250	0.0	n/a	btnR	n/a	0.882	n/a
+389.2170	0.947	0.454	ImmSF	18	n/a	func/s080.bmp
+389.7780	0.0	n/a	btnR	n/a	0.561	n/a
+392.3570	0.926	0.42	IniSF	17	n/a	func/s068.bmp
+393.2550	0.0	n/a	btnL	n/a	0.898	n/a
+395.6310	0.918	0.573	DelFF	7	n/a	func/f073.bmp
+396.5840	0.0	n/a	btnR	n/a	0.953	n/a

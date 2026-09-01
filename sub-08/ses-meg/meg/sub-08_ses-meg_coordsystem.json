@@ -1,32 +1,93 @@
 {
- "MEGCoordinateSystem": "ElektaNeuromag",
- "MEGCoordinateUnits": "mm",
- "MEGCoordinateSystemDescription": "VectorView: 102 Magnetometers, 204 Planar Gradiometers",
- "EEGCoordinateSystem": "ElektaNeuromag",
- "EEGCoordinateUnits": "mm",
- "EEGCoordinateSystemDescription": "70 Easycap sites, roughly corresponding to extended 10-20 system: see http://imaging.mrc-cbu.cam.ac.uk/meg/VectorviewDescription#EEGlabels",
- "DigitizedHeadPoints": "sub-08_ses-meg_headshape.pos",
- "DigitizedHeadPointsCoordinateSystem": "ElektaNeuromag",
- "DigitizedHeadPointsCoordinateUnits": "mm",
- "DigitizedHeadPointsCoordinateSystemDescription": "Headpoints include arcs of points along front of head and around nose, as well as centre of 70 EEG electrodes spread across scalp, which also help define headshape. Beware that nose points can bias coregistration with MRI if MRI image does not include all of the nose.",
- "IntendedFor": "ses-mri/anat/sub-08_ses-mri_acq-mprage_T1w.nii.gz",
- "AnatomicalLandmarkCoordinates": {
-  "LPA": [-69.53,0,0],
-  "RPA": [69.76000000000001,0,0],
-  "Nasion": [0,91.44,0]
- },
- "AnatomicalLandmarkCoordinateSystem": "ElektaNeuromag",
- "AnatomicalLandmarkCoordinateUnits": "mm",
- "AnatomicalLandmarkCoordinateSystemDescription": "For images of anatomical landmarks, see http://imaging.mrc-cbu.cam.ac.uk/meg/SubjectPreparation",
- "HeadCoilCoordinates": {
-  "coil1": [71.48248700000001,-1.564324,87.62299299999999],
-  "coil2": [31.822134,73.60518,87.977841],
-  "coil3": [-7.347062,-22.999674,129.33825],
-  "coil4": [-66.00551299999999,-16.875893,89.891344],
-  "coil5": [18.335775,-88.99889899999999,59.319738]
- },
- "HeadCoilCoordinateSystem": "ElektaNeuromag",
- "HeadCoilCoordinateUnits": "mm",
- "HeadCoilCoordinateSystemDescription": "5 HPI coils used",
- "FiducialsDescription": "For images of anatomical landmarks, see http://imaging.mrc-cbu.cam.ac.uk/meg/SubjectPreparation"
+    "MEGCoordinateSystem": "ElektaNeuromag",
+    "MEGCoordinateUnits": "m",
+    "MEGCoordinateSystemDescription": "RAS orientation and the origin between the ears",
+    "HeadCoilCoordinates": {
+        "NAS": [
+            -4.2430943203441984e-09,
+            0.09144063293933868,
+            3.3938876153882802e-09
+        ],
+        "LPA": [
+            -0.06953103095293045,
+            -2.9229649811668423e-09,
+            -3.60721452707935e-10
+        ],
+        "RPA": [
+            0.06975588202476501,
+            2.194722625858958e-09,
+            -1.8416066449589152e-09
+        ],
+        "coil1": [
+            0.07148248702287674,
+            -0.0015643240185454488,
+            0.0876229926943779
+        ],
+        "coil2": [
+            0.03182213380932808,
+            0.07360517978668213,
+            0.08797784149646759
+        ],
+        "coil3": [
+            -0.0073470622301101685,
+            -0.022999674081802368,
+            0.12933824956417084
+        ],
+        "coil4": [
+            -0.06600551307201385,
+            -0.016875892877578735,
+            0.08989134430885315
+        ],
+        "coil5": [
+            0.018335774540901184,
+            -0.08899889886379242,
+            0.059319738298654556
+        ]
+    },
+    "HeadCoilCoordinateSystem": "ElektaNeuromag",
+    "HeadCoilCoordinateUnits": "m",
+    "AnatomicalLandmarkCoordinates": {
+        "NAS": [
+            -4.2430943203441984e-09,
+            0.09144063293933868,
+            3.3938876153882802e-09
+        ],
+        "LPA": [
+            -0.06953103095293045,
+            -2.9229649811668423e-09,
+            -3.60721452707935e-10
+        ],
+        "RPA": [
+            0.06975588202476501,
+            2.194722625858958e-09,
+            -1.8416066449589152e-09
+        ],
+        "coil1": [
+            0.07148248702287674,
+            -0.0015643240185454488,
+            0.0876229926943779
+        ],
+        "coil2": [
+            0.03182213380932808,
+            0.07360517978668213,
+            0.08797784149646759
+        ],
+        "coil3": [
+            -0.0073470622301101685,
+            -0.022999674081802368,
+            0.12933824956417084
+        ],
+        "coil4": [
+            -0.06600551307201385,
+            -0.016875892877578735,
+            0.08989134430885315
+        ],
+        "coil5": [
+            0.018335774540901184,
+            -0.08899889886379242,
+            0.059319738298654556
+        ]
+    },
+    "AnatomicalLandmarkCoordinateSystem": "ElektaNeuromag",
+    "AnatomicalLandmarkCoordinateUnits": "m"
 }
