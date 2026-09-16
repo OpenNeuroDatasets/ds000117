@@ -50,4 +50,6 @@ Revision history for OpenfMRI dataset ds000117
 0.1.1 2016-09-17  
 	- Replaced ds117_R0.1.0/sub004/MEG/run_02_sss.fif and ds117_R0.1.0/sub006/MEG/run_03_sss.fif since the original versions were corrupted  
 0.1.0 2014-11-03  
-	- Initial Release  
+	- Initial Release
+2.0.0 2026-09-16
+  - 	- Reconverted all data to comply with BIDS version 1.8.0.   	- MRI: Excluded DWI and FLASH images.   	- MRI: Removed two dummy scans from DICOMs before converting (rather than after).   	- MRI: Made button presses as separate event types.   	- MEG: Updated emtpy_room data to not have the ones with MaxShield turned on.   	- MEG: In Events files include all events that happened (in previous version a few events that overlapped with button presses were not included) and fix some minor events errors.   	- MEG: Renamed channels EEG061 and EEG062 to EOG061 and EOG062 and type 'eog'.   	- MEG: Renamed channel EEG063 to ECG063 and type 'ecg'.   	- MEG: Changed channel EEG064 type to 'misc'.   	- Updated README, CHANGES, task-facerecognition_bold.json, dataset_description.json.   	- Created task-facerecognition_meg.json.  
