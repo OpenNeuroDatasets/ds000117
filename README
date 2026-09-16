@@ -19,21 +19,21 @@ Subjects decided whether each stimulus was more or less symmetrical around a ver
 
 Please cite the following reference if you use these data:
 
-	Wakeman, D.G. & Henson, R.N. (2015). A multi-subject, multi-modal human neuroimaging dataset. Sci. Data 2:150001 doi: 10.1038/sdata.2015.1
+Wakeman, D.G. & Henson, R.N. (2015). A multi-subject, multi-modal human neuroimaging dataset. Sci. Data 2:150001 doi: 10.1038/sdata.2015.1
 
 The data have been used in several publications including, for example:
 
-	Henson, R.N., Abdulrahman, H., Flandin, G. & Litvak, V. (2019). Multimodal integration of M/EEG and f/MRI data in SPM12. Frontiers in Neuroscience, Methods, 13, 300. (plus several other papers in that special issue, using other software like MNE)
+Henson, R.N., Abdulrahman, H., Flandin, G. & Litvak, V. (2019). Multimodal integration of M/EEG and f/MRI data in SPM12. Frontiers in Neuroscience, Methods, 13, 300. (plus several other papers in that special issue, using other software like MNE)
 
-	Lee, S-M., Tibon, R., Zeidman, P., Yadav, P.S. & Henson, R.N. (2022). Effects of Face Repetition on Ventral Visual Stream Connectivity using Dynamic Causal Modelling of fMRI data. Neuroimage, 264, 119708.
+Lee, S-M., Tibon, R., Zeidman, P., Yadav, P.S. & Henson, R.N. (2022). Effects of Face Repetition on Ventral Visual Stream Connectivity using Dynamic Causal Modelling of fMRI data. Neuroimage, 264, 119708.
 
-	Henson, R.N., Wakeman, D.G., Litvak, V. & Friston, K.J. (2011). A Parametric Empirical Bayesian framework for the EEG/MEG inverse problem: generative models for multisubject and multimodal integration. Frontiers in Human Neuroscience, 5, 76, 1-16.
+Henson, R.N., Wakeman, D.G., Litvak, V. & Friston, K.J. (2011). A Parametric Empirical Bayesian framework for the EEG/MEG inverse problem: generative models for multisubject and multimodal integration. Frontiers in Human Neuroscience, 5, 76, 1-16.
 
-    	Various Chapters of the SPM12 manual (http://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf)
+ Various Chapters of the SPM12 manual (http://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf)
 
-	The BioMag2010 data competition and the Kaggle competition: https://www.kaggle.com/c/decoding-the-human-brain)
+The BioMag2010 data competition and the Kaggle competition: https://www.kaggle.com/c/decoding-the-human-brain)
 
-	The COGNESTIC summer school in neuroimaging 
+The COGNESTIC summer school in neuroimaging, https://www.mrc-cbu.cam.ac.uk/events/cognestic-2026/
 
 History
 =======
@@ -75,7 +75,7 @@ stimuli
 
 Note slightly different images (views of same faces) were used for meg and func (fMRI). Note that the order of MEG and fMRI was not counterbalanced fully (see "first_ses" column in participants.tsv) file, and there could be longer-lag (ie across days) effects of repeatedly seeing the same person (even if different view).
 
-defacing****
+defacing
 --------
 
 Defacing of MPRAGE T1 images was performed by FSL. A subset of subjects have given consent for non-defaced versions to be shared - in which case, please contact rik.henson@mrc-cbu.cam.ac.uk.
@@ -105,8 +105,8 @@ As noted above, there are multiple versions of the dataset available on the web,
     (And renumbered subject_14 for some reason now forgotten (sorry)).
  
 4. Current OpenNeuro subset N=16 used for (BIDS): https://openneuro.org/datasets/ds000117 
-    OpenNeuro was rebranding of OpenfMRI, and enforced BIDS format
-    Since this version designed to illustrate multi-modal BIDS, kept same numbering as FTP
+    OpenNeuro was a rebranding of OpenfMRI, and enforced BIDS format
+    Since this version was designed to illustrate multi-modal BIDS, kept same numbering as FTP
  
 | W&H2015    | OpenfMRI | FTP   | OpenNeuro |
 |------------|----------|-------|-----------|
