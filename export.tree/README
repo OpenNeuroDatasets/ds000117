@@ -1,0 +1,132 @@
+Description
+===========
+
+Multi-subject, multi-modal (sMRI+fMRI+MEG+EEG) neuroimaging dataset on face processing. 16 young healthy volunteers were scanned once in MRI and once in MEG. During the task runs, the volunteers saw three types of faces (famous, unfamiliar and scrambled), either for the first time (Initial) or Repeated either immediately or after several intervening stimuli, but otherwise randomly intermixed every few seconds. This 3x3 design results in 9 different stimulus conditions: 
+
+| Label                            | Simplified Label |
+|----------------------------------|------------------|
+| Initial Famous Face              | IniFF            |
+| Immediate Repeat Famous Face     | ImmFF            |
+| Delayed Repeat Famous Face       | DelFF            |
+| Initial Unfamiliar Face          | IniUF            |
+| Immediate Repeat Unfamiliar Face | ImmUF            |
+| Delayed Repeat Unfamiliar Face   | DelUF            |
+| Initial Scrambled Face           | IniSF            |
+| Immediate Repeat Scrambled Face  | ImmSF            |
+| Delayed Repeat Scrambled Face    | DelSF            |
+
+Subjects decided whether each stimulus was more or less symmetrical around a vertical line through centre of image, resulting in a button press after each stimulus. Theses button presses are also coded as "btnL" for left button and "btnR" for right button. The symmetry task is somewhat arbitrary - designed only to ensure subjects processed the face and scrambled face stimuli to an equivalent minimal level. For more information about paradigm, see Wakeman & Henson (2015) paper below.
+
+Please cite the following reference if you use these data:
+
+Wakeman, D.G. & Henson, R.N. (2015). A multi-subject, multi-modal human neuroimaging dataset. Sci. Data 2:150001 doi: 10.1038/sdata.2015.1
+
+The data have been used in several publications including, for example:
+
+Henson, R.N., Abdulrahman, H., Flandin, G. & Litvak, V. (2019). Multimodal integration of M/EEG and f/MRI data in SPM12. Frontiers in Neuroscience, Methods, 13, 300. (plus several other papers in that special issue, using other software like MNE)
+
+Lee, S-M., Tibon, R., Zeidman, P., Yadav, P.S. & Henson, R.N. (2022). Effects of Face Repetition on Ventral Visual Stream Connectivity using Dynamic Causal Modelling of fMRI data. Neuroimage, 264, 119708.
+
+Henson, R.N., Wakeman, D.G., Litvak, V. & Friston, K.J. (2011). A Parametric Empirical Bayesian framework for the EEG/MEG inverse problem: generative models for multisubject and multimodal integration. Frontiers in Human Neuroscience, 5, 76, 1-16.
+
+ Various Chapters of the SPM12 manual (http://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf)
+
+The BioMag2010 data competition and the Kaggle competition: https://www.kaggle.com/c/decoding-the-human-brain)
+
+The COGNESTIC summer school in neuroimaging, https://www.mrc-cbu.cam.ac.uk/events/cognestic-2026/
+
+History
+=======
+
+This dataset was obtained from the OpenNeuro project (https://www.openneuro.org). Accession #: ds000117.
+
+Note that it is a subset of the data available on OpenfMRI (http://www.openfmri.org; Accession #: ds000117), and updated to BIDS.
+
+An even older non-BIDS version is available with dedicated FTP client like FileZilla: ftp://ftp.mrc-cbu.cam.ac.uk/personal/rik.henson/wakemandg_hensonrn/
+
+For conversion between subject IDs between these three different versions, see Table at end.
+
+The original data were collected by Dan Wakeman, under while his PhD was supervised by Rik Henson. The latest BIDS version was recreated by Dace Apšvalka. The code for BIDS conversion are available on request.
+
+For any questions, please contact rik.henson@mrc-cbu.cam.ac.uk
+
+Further Notes
+=============
+
+func/
+-----
+
+Unlike some previous versions of these data, the first two (dummy) volumes have now been removed (as stated in *.json), to reduce T1 effects, so event onset times correctly refer to t=0 at start of third volume. (Note that scanner also tries to saturate T1 effects even before first volume). 
+
+Note that, owing to scanner error, Subject 10 only has 170 volumes in last run (Run 9).
+
+meg/
+----
+
+Three anatomical fiducials were digitized for aligning the MEG with the MRI: the nasion and the left and right pre-aricular points, as illustrated here: https://imaging.mrc-cbu.cam.ac.uk/meg/ParticipantPreparation
+
+empty-room
+----------
+
+There are empty-room MEG data from 7 sessions (days) - to match to subject, see "AssociatedEmptyRoom" in subjects "*ses-meg_task-facerecognition_run-*_meg.json" file.
+
+stimuli
+-------
+
+Note slightly different images (views of same faces) were used for meg and func (fMRI). Note that the order of MEG and fMRI was not counterbalanced fully (see "first_ses" column in participants.tsv) file, and there could be longer-lag (ie across days) effects of repeatedly seeing the same person (even if different view).
+
+defacing
+--------
+
+Defacing of MPRAGE T1 images was performed by FSL. A subset of subjects have given consent for non-defaced versions to be shared - in which case, please contact rik.henson@mrc-cbu.cam.ac.uk.
+ 
+Known Issues
+------------
+
+N/A
+
+=======================================================================
+
+Relationship of Subject Numbering relative to other versions of Dataset
+-----------------------------------------------------------------------
+
+As noted above, there are multiple versions of the dataset available on the web, and these entailed a renumbering of the subjects for various reasons. Here are all the versions and how to match subjects between them (plus some rationale and history for different versions):
+ 
+1. Original Paper (N=19): Wakeman & Henson (2015): doi:10.1038/sdata.2015.1 
+    Number refers to order that tested (and some, eg 4, 7, 13 etc were excluded for not completing both MRI and MEG sessions)
+ 
+2. OpenfMRI, renumbered from paper: http://openfmri.org/s3-browser/?prefix=ds000117/ds000117_R0.1.1/uncompressed/
+    Numbers 1-19 just made contiguous
+ 
+3. FTP subset of N=16: ftp: ftp://ftp.mrc-cbu.cam.ac.uk/personal/rik.henson/wakemandg_hensonrn/  
+    This set was used for SPM Courses
+    Designed to illustrate multimodal integration, so wanted good MRI+MEG+EEG data for all subjects
+    Removed original subject_01 and subject_06 because bad EEG data; subject_19 because poor EEG and fMRI data
+    (And renumbered subject_14 for some reason now forgotten (sorry)).
+ 
+4. Current OpenNeuro subset N=16 used for (BIDS): https://openneuro.org/datasets/ds000117 
+    OpenNeuro was a rebranding of OpenfMRI, and enforced BIDS format
+    Since this version was designed to illustrate multi-modal BIDS, kept same numbering as FTP
+ 
+| W&H2015    | OpenfMRI | FTP   | OpenNeuro |
+|------------|----------|-------|-----------|
+| subject_01 | sub001   |       |           |
+| subject_02 | sub002   | Sub01 | sub-01    |
+| subject_03 | sub003   | Sub02 | sub-02    |
+| subject_05 | sub004   | Sub03 | sub-03    |
+| subject_06 | sub005   |       |           |
+| subject_08 | sub006   | Sub05 | sub-05    |
+| subject_09 | sub007   | Sub06 | sub-06    |
+| subject_10 | sub008   | Sub07 | sub-07    |
+| subject_11 | sub009   | Sub08 | sub-08    |
+| subject_12 | sub010   | Sub09 | sub-09    |
+| subject_14 | sub011   | Sub04 | sub-04    |
+| subject_15 | sub012   | Sub10 | sub-10    |
+| subject_16 | sub013   | Sub11 | sub-11    |
+| subject_17 | sub014   | Sub12 | sub-12    |
+| subject_18 | sub015   | Sub13 | sub-13    |
+| subject_19 | sub016   |       |           |
+| subject_23 | sub017   | Sub14 | sub-14    |
+| subject_24 | sub018   | Sub15 | sub-15    |
+| subject_25 | sub019   | Sub16 | sub-16    |
+

@@ -1,0 +1,33 @@
+{
+    "TaskName": "facerecognition",
+    "Manufacturer": "Elekta",
+    "PowerLineFrequency": 50.0,
+    "SamplingFrequency": 1100.0,
+    "SoftwareFilters": {
+        "SpatialCompensation": {
+            "GradientOrder": 0
+        }
+    },
+    "RecordingDuration": 489.9990909090909,
+    "RecordingType": "continuous",
+    "DewarPosition": "n/a",
+    "DigitizedLandmarks": true,
+    "DigitizedHeadPoints": true,
+    "MEGChannelCount": 306,
+    "MEGREFChannelCount": 0,
+    "ContinuousHeadLocalization": true,
+    "HeadCoilFrequency": [
+        293.0,
+        307.0,
+        314.0,
+        321.0,
+        328.0
+    ],
+    "AssociatedEmptyRoom": "sub-emptyroom/ses-19110831/meg/sub-emptyroom_ses-19110831_task-noise_meg.fif",
+    "EEGChannelCount": 70,
+    "EOGChannelCount": 2,
+    "ECGChannelCount": 1,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 13,
+    "TriggerChannelCount": 3
+}
